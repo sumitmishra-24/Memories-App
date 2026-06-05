@@ -13,8 +13,9 @@ Setup:
 
 ## Debugging & Configuration Work
 
-- Connected the application to MongoDB Atlas
-- Fixed frontend-backend API connectivity issues
-- Resolved infinite loading state bug
-- Fixed Like functionality crash
-- Configured and debugged the project for successful local deployment
+- Replaced outdated MongoDB Atlas connection string with a new Atlas cluster.
+- Configured a new MongoDB Atlas database user and connection URL.
+- Updated frontend API endpoint from port 5000 to port 5001.
+- Resolved infinite loading issue when the database contained no posts.
+- Fixed Like button crash caused by null post references.
+- Resolved local port conflict during backend startup.
