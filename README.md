@@ -10,3 +10,11 @@ Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack M
 
 Setup:
 - run ```npm i && npm start``` for both client and server side to start the app
+
+## Debugging & Configuration Work
+
+- Connected the application to MongoDB Atlas
+- Fixed frontend-backend API connectivity issues
+- Resolved infinite loading state bug
+- Fixed Like functionality crash
+- Configured and debugged the project for successful local deployment
